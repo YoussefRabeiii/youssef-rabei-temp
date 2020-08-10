@@ -128,7 +128,7 @@ nav a {
 /* Responsive */
 @media (max-width: 1024px) {
     body {
-        overflow-y: auto;
+        overflow-y: scroll;
     }
 
     .container {
@@ -163,9 +163,25 @@ nav a {
     }
 }
 
+
+
+
+
+@media (max-width: 1024px), (min-width: 640px) {
+    .container {
+        /* background-color: var(--primary) !important; */
+        height: 95vh !important;
+    }
+}
+
+
+
+
+
 @media (max-width: 640px) {
     .container {
         padding: 30px 20px;
+        height: 100% !important;
     }
 
     nav {
