@@ -168,10 +168,7 @@ nav a {
 
 
 @media (max-width: 1024px), (min-width: 640px) {
-    .container {
-        /* background-color: var(--primary) !important; */
-        height: 95vh !important;
-    }
+    .container { height: 95vh !important }
 }
 
 
