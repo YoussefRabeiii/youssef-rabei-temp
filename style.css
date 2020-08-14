@@ -175,17 +175,17 @@ nav a {
     }
 
     .container__content__txt h1 {
-        font-size: 3.5em;
+        font-size: 3em;
     }
 
     .container__content__txt h3 {
-        font-size: 4em !important;
+        font-size: 2em !important;
         margin-block-start: -20px;
     }
 
     .container__content__txt__contact {
         font-weight: bold;
-        font-size: 5em !important;
+        font-size: 3em !important;
     }
 
 }
