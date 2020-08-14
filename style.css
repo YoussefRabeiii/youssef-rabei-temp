@@ -93,6 +93,7 @@ nav a {
     margin: 30px 0;
     line-height: 2;
     font-weight: 100;
+    width: 100% !important;
 }
 
 .container__content__txt__contact { display: none }
@@ -163,7 +164,7 @@ nav a {
 
 
 
-@media (max-width: 1024px), (min-width: 640px) {
+@media (max-width: 800px), (min-width: 640px) {
     nav h1, h2 {
         font-size: 3.2em !important;
     }
