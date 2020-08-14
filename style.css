@@ -30,7 +30,7 @@ body {
     justify-content: center;
     color: var(--onBackground);
     background-color: var(--background);
-    font-family: "Orbitron", "Segoe UI", Helvetica, sans-serif;
+    font-family: "Shadows Into Light", "Orbitron", "Segoe UI", Helvetica; 
 }
 
 a {
@@ -52,7 +52,7 @@ nav {
 
 nav h1, h2 {
     font-size: 2em !important;
-    font-family: "Shadows Into Light"; 
+    font-family: "Shadows Into Light", "Orbitron", "Segoe UI", Helvetica; 
 }
 
 nav h1 {
