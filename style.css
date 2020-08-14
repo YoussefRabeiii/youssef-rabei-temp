@@ -170,15 +170,21 @@ nav a {
     
     .container { height: 95vh !important }
 
+    .container__content__img {
+        margin-block-start: -30px !important;
+    }
+
     .container__content__txt {
         margin-block-start: 0px;
     }
 
     .container__content__txt h1 {
         font-size: 3em;
+        margin-block-end: 15px !important;
     }
 
     .container__content__txt h3 {
+        width: 130% !important;
         font-size: 1.5em !important;
         line-height: 1.5 !important;
         margin-block-start: -20px !important;
