@@ -165,7 +165,7 @@ nav a {
 
 @media (max-width: 1024px), (min-width: 640px) {
     nav h1, h2 {
-        font-size: 3.5em !important;
+        font-size: 3.2em !important;
     }
     
     .container { height: 95vh !important }
@@ -179,13 +179,14 @@ nav a {
     }
 
     .container__content__txt h3 {
-        font-size: 1.2em !important;
+        font-size: 1.5em !important;
+        line-height: 1.5 !important;
         margin-block-start: -20px !important;
     }
 
     .container__content__txt__contact {
-        font-weight: bold;
         font-size: 1.5em !important;
+        font-weight: bold !important;
     }
 
 }
