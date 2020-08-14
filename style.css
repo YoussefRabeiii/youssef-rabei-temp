@@ -184,15 +184,16 @@ nav a {
     }
 
     .container__content__txt h3 {
-        width: 130% !important;
+        width: 120% !important;
         font-size: 1.5em !important;
         line-height: 1.5 !important;
         margin-block-start: -20px !important;
+        margin-inline-start: -30px !important;
     }
 
     .container__content__txt__contact {
-        font-size: 1.5em !important;
-        font-weight: bold !important;
+        font-size: 1.6em !important;
+        font-weight: 700 !important;
     }
 
 }
