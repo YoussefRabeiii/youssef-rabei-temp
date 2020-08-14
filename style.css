@@ -165,13 +165,13 @@ nav a {
 
 
 
-
-
 @media (max-width: 1024px), (min-width: 640px) {
     .container { height: 95vh !important }
+
+    .container__content__txt {
+        margin-block-start: 0px;
+    }
 }
-
-
 
 
 
