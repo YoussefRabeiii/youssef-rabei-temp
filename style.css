@@ -56,13 +56,11 @@ nav h1, h2 {
 }
 
 nav h1 {
-    font-size: 2em;
     display: inline-block;
     margin-inline-end: 10px;
 }
 
 nav h2 {
-    font-size: 2em;
     color: var(--primary);
     display: inline-block;
     margin-inline-start: -10px;
@@ -166,6 +164,10 @@ nav a {
 
 
 @media (max-width: 1024px), (min-width: 640px) {
+    nav h1, h2 {
+        font-size: 3.5em !important;
+    }
+    
     .container { height: 95vh !important }
 
     .container__content__txt {
@@ -173,10 +175,15 @@ nav a {
     }
 
     .container__content__txt h3 {
-        margin: 0;
-        font-size: 1.4em;
+        font-size: 3em;
         line-height: normal;
     }
+
+    .container__content__txt__contact {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
 }
 
 
