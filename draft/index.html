@@ -62,20 +62,29 @@
       gtag("config", "UA-131848957-6");
     </script>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Youssef Rabei | Web Developer</title>
   </head>
 
   <body>
     <div class="container">
       <nav>
-        <h1>Youssef Rabei</h1>
-        <h2>.Dev</h2>
+        <div class="nav__logo">
+          <h1>Youssef Rabei</h1>
+          <h2>.Dev</h2>
+        </div>
 
-        <a
-          href="mailto:youssefrabei.dev@gmail.com?subject=🌐 From Your Website 🌐"
-          >Contact Me</a
-        >
+        <ul class="nav__links">
+          <li class="nav__links__link nav__links__link--active">
+            <a href="/">Home</a>
+          </li>
+          <li class="nav__links__link">
+            <a href="/About">About</a>
+          </li>
+          <li class="nav__links__link">
+            <a href="/Projects">Projects</a>
+          </li>
+        </ul>
       </nav>
 
       <div class="container__content">
@@ -84,15 +93,9 @@
 
           <h3>
             A 16 years old Javascript enthusiast, Front-End Web Developer 💻,
-            Musician 🎻 🎹 and a Photographer 📷, Who's making coffee ☕ right
-            now.
+            Musician 🎻 🎹 and a Photographer 📷, Who's probably making coffee
+            ☕ right now.
           </h3>
-
-          <a
-            href="mailto:youssefrabei.dev@gmail.com?subject=🌐 From Your Website 🌐"
-            class="container__content__txt__contact"
-            >Contact Me</a
-          >
 
           <div class="container__content__txt__social">
             <a
@@ -201,6 +204,12 @@
               </svg>
             </a>
           </div>
+
+          <a
+            class="contactMe"
+            href="mailto:youssefrabei.dev@gmail.com?subject=🌐 From Your Website 🌐"
+            >Contact Me</a
+          >
         </div>
 
         <div class="container__content__img">
